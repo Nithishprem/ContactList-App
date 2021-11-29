@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact List</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/4ff1b6dad0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container-1 container">
+        <h1 class="box-1">Contact List</h1>
+        <input class="box-2" type="text" placeholder="Search contacts" />
+      </div>
+    </header>
+
+    <div class="container-2 container">
+      <div class="form-container">
+        <h1>Add Contacts</h1>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="nameInput" />
+          </div>
+          <div class="form-group">
+            <label for="number">Number:</label>
+            <input type="text" name="number" id="numberInput" />
+          </div>
+          <button type="submit">Add Contact</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container-3 container">
+      <table class="table">
+        <thead>
+          <tr class="row">
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
